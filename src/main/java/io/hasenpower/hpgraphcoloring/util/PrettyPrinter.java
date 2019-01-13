@@ -12,6 +12,5 @@ public class PrettyPrinter {
         LOGGER.info(solution.getGraph().toSummaryString());
         LOGGER.info("Chromatic Number: " + solution.getCromaticNumber());
         LOGGER.info("Is feasible: " + solution.isFeasible());
-//        LOGGER.info(solution.toString());
     }
 }

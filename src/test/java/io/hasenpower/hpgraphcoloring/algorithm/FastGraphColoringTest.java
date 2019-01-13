@@ -30,32 +30,5 @@ class FastGraphColoringTest {
         FastGraphColoring fastGraphColoring = new FastGraphColoring(graph);
         Solution solution = fastGraphColoring.solveGraph();
         PrettyPrinter.print(solution);
-
-        solution = new FastGraphColoring(graph).solveGraph();
-        PrettyPrinter.print(solution);
-
-        solution = new FastGraphColoring(graph).solveGraph();
-        PrettyPrinter.print(solution);
-
-        solution = new FastGraphColoring(graph).solveGraph();
-        PrettyPrinter.print(solution);
-
-        solution = new FastGraphColoring(graph).solveGraph();
-        PrettyPrinter.print(solution);
-
-        solution = new FastGraphColoring(graph).solveGraph();
-        PrettyPrinter.print(solution);
-
-        solution = new FastGraphColoring(graph).solveGraph();
-        PrettyPrinter.print(solution);
-
-        solution = new FastGraphColoring(graph).solveGraph();
-        PrettyPrinter.print(solution);
-
-        solution = new FastGraphColoring(graph).solveGraph();
-        PrettyPrinter.print(solution);
-
-        solution = new FastGraphColoring(graph).solveGraph();
-        PrettyPrinter.print(solution);
     }
 }
