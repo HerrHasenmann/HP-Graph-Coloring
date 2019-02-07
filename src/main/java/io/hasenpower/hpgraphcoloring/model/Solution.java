@@ -75,6 +75,10 @@ public class Solution {
         return node.getNeighbors().values().stream().noneMatch(neighborNode -> getColor(neighborNode) == getColor(node));
     }
 
+    public boolean isColorFeasibleForNode(Node node, int color) {
+        return node.getNeighbors().values().stream().noneMatch(neighborNode -> getColor(neighborNode) == color);
+    }
+
     public long getCromaticNumber() {
         return nodeColors.values().stream().distinct().count();
     }
@@ -90,5 +94,9 @@ public class Solution {
                 "nodeColors=" + nodeColors +
                 ", graph=" + graph +
                 '}';
+    }
+
+    public boolean isColorized(Node node) {
+        return nodeColors.containsKey(node.getId());
     }
 }

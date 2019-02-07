@@ -28,7 +28,6 @@ public class GraphFileReader {
 
             bufferedReader
                     .lines()
-//                    .parallel()
                     .filter(line ->
                             line.matches(
                                     EDGE_LINE_PATTERN.pattern()) &&
